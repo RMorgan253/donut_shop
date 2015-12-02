@@ -58,7 +58,7 @@ function tableRender() {
         newRow.appendChild(salesByHour);
       }
     table.appendChild(newRow);
-    // prints total sales for location
+    //prints total sales for location
     var salesTotal = document.createElement("td");
     salesTotal.textContent = shop.dailySales().toFixed(1);
     newRow.appendChild(salesTotal);
